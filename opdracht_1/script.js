@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
     }
 });
 
-btnAdd.addEventListener("click", (event) => {
+btnAdd.addEventListener('click', function(event) {
     const productAdd = document.querySelector("#product-add");
 
     if (productAdd.value) {
