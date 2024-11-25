@@ -11,11 +11,15 @@ btnControl.onclick = () => {
 
 
     if (isNaN(age) || age > 18) {
-        window.location.href = "https://www.techniekcollegerotterdam.nl/locaties/schiedamseweg";
+        // window.location.href = "https://www.techniekcollegerotterdam.nl/locaties/schiedamseweg";
+        var audio = new Audio('audio.mp3');
+        audio.play();
     }
     else {
-        verifObj.style.display = "block";
+        btn.style.display = "none";
+        verifObj.style.display = "none";
         const fout = document.querySelector(".fout");
         fout.innerHTML = "<h1>Jij bent te jong!!!!</h1>";
+        document.body.style.background = "red";
     }
 }
