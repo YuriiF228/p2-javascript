@@ -21,6 +21,6 @@ btnControl.onclick = () => {
         verifObj.style.display = "none";
         const fout = document.querySelector(".fout");
         fout.innerHTML = "<h1>Jij bent te jong!!!!</h1>";
-        document.body.style.background = "red";
+        bodyDoc.style.background = "red";
     }
 }
