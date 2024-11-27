@@ -6,4 +6,4 @@ function tafel() {
     res += i + " * " + nummer + " = " + (i * nummer) + "<br>";
     }
     document.getElementById("res").innerHTML = res;
-} 
+}
