@@ -2,8 +2,8 @@
 
 let movingDiv = document.getElementById("movingDiv");
 movingDiv.addEventListener('click', () => {
-    var colors = ['green', 'red', 'blue', 'yellow'];
-    var randomColor = colors[Math.floor(Math.random() * colors.length)];
+    const colors = ['green', 'red', 'blue', 'yellow'];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
     movingDiv.style.background = randomColor;
 });
 
