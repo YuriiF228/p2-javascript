@@ -6,27 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traffic light 1</title> 
+    <link rel="stylesheet" href="./style/style.css">
 </head>
-<style>
-    body{
-        background-image: url(./img/background.png);
-    }
-</style>
 <body>
 
-        <h1> Traffic Light </h1>
-        <h2>Verwisselen van plaatjes</h2>
-        <img id="traffic-light">
+<div class="gameBar">
+    <h1> Traffic Light </h1>
+    <h2>Verwisselen van plaatjes</h2>
+    <p> Klik op het stoplicht om het te veranderen </p>
+    <div class="trafficBtns">
+        <button id="trafficBtnRed">Rood</button>
+        <button id="trafficBtnYellow">Geel</button>
+        <button id="trafficBtnGreen">Groen</button>
+        <button id="trafficBtnOff">Uit</button>
+    </div>
 
-        <div>
-            <button id="trafficBtnRed">Red</button>
-            <button id="trafficBtnYellow">Yellow</button>
-            <button id="trafficBtnGreen">Green</button>
-            <button id="trafficBtnOff">ShutOff</button>
-        </div>
+</div>
 
-    <script src="./app.js"></script>
+<img id="traffic-light">
 
+    
+<script src="./app.js"></script>
 </body>
  
 </html> 
