@@ -1,12 +1,15 @@
-
+// Lights
 let trafficLight = document.getElementById('traffic-light');
 const trafficBtnRed = document.getElementById("trafficBtnRed"),
       trafficBtnYellow = document.getElementById("trafficBtnYellow"),
       trafficBtnGreen = document.getElementById("trafficBtnGreen"),
       trafficBtnOff = document.getElementById("trafficBtnOff");  
 
-trafficLight.src = "./img/shutOff.png"; 
+      trafficLight.src = "./img/shutOff.png";  // foto van
 
+// Cars
+const firstCar = document.getElementById('FirstCarEl');
+firstCar.src = "./img/image.png";
 
 trafficBtnRed.addEventListener('click', function() {
     trafficLight.src = "./img/trafficLightRed.png";
@@ -23,3 +26,4 @@ trafficBtnGreen.addEventListener('click', function() {
 trafficBtnOff.addEventListener('click', function() {
     trafficLight.src = "./img/shutOff.png";
 });
+
