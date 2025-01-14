@@ -25,7 +25,7 @@ function checkCollision() {
         ) {
             setTimeout(() => {
                 gameIsOver();
-            },10000);
+            },10);
         }
         
 }

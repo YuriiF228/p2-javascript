@@ -36,7 +36,7 @@ body {
 }
 @keyframes moveLeft {
     0% {
-        left: 500px;
+        left: 100%;
     }
     100% {
         left: -20px;
